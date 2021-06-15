@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task1</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<script src="app.js" defer></script>
+
+<body>
+  <div class="container2" id="grid2">
+    <div id="smallbox1"></div>
+    <div id="smallbox2"></div>
+    <div id="smallbox3"></div>
+    <div id="smallbox4"></div>
+    <div id="smallbox5"></div>
+    <div id="smallbox6"></div>
+    <div id="smallbox7"></div>
+    <div id="smallbox8"></div>
+    <div id="smallbox9"></div>
+  </div>
+  <div class="container1" id="grid1">
+    <div id="box1" onclick="check(0)"></div>
+    <div id="box2" onclick="check(1)"></div>
+    <div id="box3" onclick="check(2)"></div>
+    <div id="box4" onclick="check(3)"></div>
+    <div id="box5" onclick="check(4)"></div>
+    <div id="box6" onclick="check(5)"></div>
+    <div id="box7" onclick="check(6)"></div>
+    <div id="box8" onclick="check(7)"></div>
+    <div id="box9" onclick="check(8)"></div>
+    <div id="box10" onclick="check(9)"></div>
+    <div id="box11" onclick="check(10)"></div>
+    <div id="box12" onclick="check(11)"></div>
+    <div id="box13" onclick="check(12)"></div>
+    <div id="box14" onclick="check(13)"></div>
+    <div id="box15" onclick="check(14)"></div>
+    <div id="box16" onclick="check(15)"></div>
+    <div id="box17" onclick="check(16)"></div>
+    <div id="box18" onclick="check(17)"></div>
+    <div id="box19" onclick="check(18)"></div>
+    <div id="box20" onclick="check(19)"></div>
+    <div id="box21" onclick="check(20)"></div>
+    <div id="box22" onclick="check(21)"></div>
+    <div id="box23" onclick="check(22)"></div>
+    <div id="box24" onclick="check(23)"></div>
+    <div id="box25" onclick="check(24)"></div>
+  </div>
+  <div class="container3">
+    <h3>Timer</h3>
+    <p><span id="seconds">00</span>:<span id="tens">00</span></p>
+  </div>
+  <button id="btn" onclick="reset()">Reset Now</button>
+
+  <div class="container4">
+    <h3>Game Completed</h3>
+  </div>
+
+  <div class="container5">
+    <h3>Moves taken</h3>
+    <p><span id="moves">00</span></p>
+  </div>
+
+  <div class="container6">
+    <h3>Your score is(out of 500):</h3>
+    <br>
+    <h3><span id="score">00</span></h3>
+  </div>
+</body>
+
+</html>
