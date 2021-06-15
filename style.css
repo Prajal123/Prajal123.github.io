@@ -67,7 +67,6 @@ body{
 
   .black{
     background-color: lightgray ;
-    border:2px solid black;
     border-radius: 5px;
     margin:1px;
   }
